@@ -62,7 +62,7 @@ header img {
 }
 
 .inputCont {
-  width: 17%;
+  width: 18%;
   padding: 20px;
   margin-top: 20px;
 }
@@ -144,4 +144,95 @@ footer .slogan {
   font-size: 1.5rem;
   margin-right: 50px;
   color: #646464;
+}
+
+@media screen and (max-width: 1805px) {
+  .inputCont {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .panel {
+    height: 300px;
+  }
+
+  .panel span {
+    font-size: 4rem;
+  }
+
+  .inputCont {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .panel {
+    height: 200px;
+  }
+
+  .panel span {
+    font-size: 3.5rem;
+  }
+
+  .inputCont {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .panel {
+    height: 150px;
+  }
+
+  .panel span {
+    font-size: 2rem;
+  }
+
+  .inputCont {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 70px;
+  }
+
+  header img {
+    width: 150px;
+    height: 17px;
+  }
+
+  .panel {
+    height: 120px;
+  }
+
+  .panel span {
+    font-size: 1.6rem;
+  }
+
+  .inputCont {
+    width: 90%;
+  }
+
+  .notice {
+    font-size: 0.7rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer .inquiry {
+    margin-left: 0;
+  }
+
+  footer .slogan {
+    font-size: 0.9rem;
+    margin-right: 0;
+  }
 }
