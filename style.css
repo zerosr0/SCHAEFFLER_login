@@ -17,6 +17,10 @@ li {
   list-style: none;
 }
 
+button {
+  border: none;
+}
+
 header {
   width: 100%;
   height: 90px;
@@ -71,6 +75,7 @@ input[type="text"],
 input[type="password"] {
   border: none;
   height: 30px;
+  width: calc(100% - 95px);
 }
 
 .idCont,
@@ -110,7 +115,7 @@ input[type="password"] {
   background-color: #619685;
   color: #fff;
   transition: 0.3s;
-}
+  font-size: 1rem;}
 
 .loginBtn:hover {
   background-color: #95b7ab;
